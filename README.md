@@ -1,7 +1,7 @@
 Hello D3D12
 ===========
 
-Welcome to a tiny D3D12 sample, which shows how to set up a window and render a textured quad complete with proper uploading handling, multiple frames queued and constant buffers.
+Welcome to a tiny Direct3D 12 sample, which shows how to set up a window and render a textured quad complete with proper uploading handling, multiple frames queued and constant buffers.
 
 License
 -------
@@ -11,10 +11,10 @@ MIT: see `LICENSE.txt` for details.
 System requirements
 -------------------
 
-* A graphics card with D3D12 support.
-  * For instance, any GCN-based AMD GPU.
-* Windows 10 (64-bit recommended).
-* Visual Studio 2015 with Visual C++ and the Windows 10 SDK installed. The [free community edition](https://www.visualstudio.com/downloads/download-visual-studio-vs) is sufficient.
+* A graphics card with Direct3D 12 support.
+  * For instance, any GCN-based AMD Radeon&trade; GPU.
+* Windows&reg; 10 (64-bit recommended).
+* Visual Studio&reg; 2015 with Visual C++&reg; and the Windows 10 SDK installed. The [free community edition](https://www.visualstudio.com/downloads/download-visual-studio-vs) is sufficient.
   * Note: neither Visual C++ nor the Windows 10 SDK are installed with Visual Studio 2015 by default.
   * For a fresh installation of Visual Studio 2015, choose 'Custom', not 'Typical', and select the required components.
   * For existing installations, you can re-run the installer or select Visual Studio from Programs and Features and click 'Change'.
@@ -52,3 +52,8 @@ Third-party software
 ------------------
 
 * Premake is distributed under the terms of the BSD License. See `premake\LICENSE.txt`.
+
+Attribution
+------------------
+* AMD, the AMD Arrow logo, Radeon, and combinations thereof are either registered trademarks or trademarks of Advanced Micro Devices, Inc. in the United States and/or other countries.
+* Microsoft, Direct3D, DirectX, Visual Studio, Visual C++, and Windows are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.
