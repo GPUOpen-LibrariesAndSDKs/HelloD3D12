@@ -1,7 +1,7 @@
 Hello D3D12
 ===========
 
-Welcome to a tiny Direct3D 12 sample, which shows how to set up a window and render a textured quad complete with proper uploading handling, multiple frames queued and constant buffers.
+HelloD3D12 is a small, introductory Direct3D 12 sample, which shows how to set up a window and render a textured quad complete with proper uploading handling, multiple frames queued, and constant buffers.
 
 License
 -------
