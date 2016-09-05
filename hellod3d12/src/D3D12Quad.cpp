@@ -61,8 +61,8 @@ void D3D12Quad::CreateMeshBuffers (ID3D12GraphicsCommandList* uploadCommandList)
 	};
 
 	// Declare upload buffer data as 'static' so it persists after returning from this function.
-	// Otherwise, we would need to explicitly wait for the GPU to copy data from the uploadbuffer
-	// to vertex/index default buffers due to how the GPU processes commands asychronously. 
+	// Otherwise, we would need to explicitly wait for the GPU to copy data from the upload buffer
+	// to vertex/index default buffers due to how the GPU processes commands asynchronously. 
 	static const Vertex vertices[4] = {
 		// Upper Left
 		{ { -1.0f, 1.0f, 0 },{ 0, 0 } },
