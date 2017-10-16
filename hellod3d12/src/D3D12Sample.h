@@ -24,6 +24,7 @@
 #define ANTERU_D3D12_SAMPLE_D3D12SAMPLE_H_
 
 #include <d3d12.h>
+#include <dxgi.h>
 #include <wrl.h>
 #include <memory>
 
