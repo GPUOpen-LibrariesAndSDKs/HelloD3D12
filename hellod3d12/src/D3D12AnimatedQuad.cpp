@@ -26,6 +26,7 @@
 
 #include "d3dx12.h"
 #include <d3dcompiler.h>
+#include <cmath>
 
 using namespace Microsoft::WRL;
 
