@@ -25,7 +25,7 @@ project (_AMD_SAMPLE_NAME)
     floatingpoint "Fast"
 
     -- Specify WindowsTargetPlatformVersion here for VS2015
-    windowstarget (_AMD_WIN_SDK_VERSION)
+    systemversion (_AMD_WIN_SDK_VERSION)
 
     files { "../src/**.h", "../src/**.cpp" }
     links { "d3dcompiler", "dxguid", "d3d12", "dxgi" }
@@ -34,11 +34,17 @@ project (_AMD_SAMPLE_NAME)
 
     filter "configurations:Debug"
         defines { "WIN32", "_DEBUG", "DEBUG", "_WINDOWS" }
-        flags { "Symbols", "FatalWarnings", "Unicode", "WinMain" }
+        symbols "On"
+        characterset ("Unicode")
+        entrypoint "WinMainCRTStartup"
+        flags { "FatalWarnings"}
         targetsuffix ("_Debug" .. _AMD_VS_SUFFIX)
 
     filter "configurations:Release"
         defines { "WIN32", "NDEBUG", "PROFILE", "_WINDOWS" }
-        flags { "LinkTimeOptimization", "Symbols", "FatalWarnings", "Unicode", "WinMain" }
+        symbols "On"
+        characterset ("Unicode")
+        entrypoint "WinMainCRTStartup"
+        flags { "LinkTimeOptimization", "FatalWarnings" }
         targetsuffix ("_Release" .. _AMD_VS_SUFFIX)
         optimize "On"

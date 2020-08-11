@@ -14,9 +14,9 @@ System requirements
 * A graphics card with Direct3D 12 support.
   * For instance, any GCN-based AMD Radeon&trade; GPU.
 * Windows&reg; 10 (64-bit recommended).
-* Visual Studio&reg; 2015 with Visual C++&reg; and the Windows 10 SDK installed. The [free community edition](https://www.visualstudio.com/downloads/download-visual-studio-vs) is sufficient.
-  * Note: neither Visual C++ nor the Windows 10 SDK are installed with Visual Studio 2015 by default.
-  * For a fresh installation of Visual Studio 2015, choose 'Custom', not 'Typical', and select the required components.
+* Visual Studio&reg; 2019 with Visual C++&reg; and the Windows 10 SDK installed. The [free community edition](https://www.visualstudio.com/downloads/download-visual-studio-vs) is sufficient.
+  * Note: neither Visual C++ nor the Windows 10 SDK are installed with Visual Studio 2019 by default.
+  * For a fresh installation of Visual Studio 2019, choose 'Custom', not 'Typical', and select the required components.
   * For existing installations, you can re-run the installer or select Visual Studio from Programs and Features and click 'Change'.
   * When selecting components to be installed, the option to install the Windows 10 SDK is tucked away under Windows and Web Development -> Universal Windows App Development Tools.
 
@@ -25,7 +25,7 @@ Building
 
 Visual Studio files can be found in the `hellod3d12\build` directory.
 
-If you need to regenerate the Visual Studio files, open a command prompt in the `hellod3d12\premake` directory and run `..\..\premake\premake5.exe vs2015` (or `..\..\premake\premake5.exe vs2013` for Visual Studio 2013.)
+If you need to regenerate the Visual Studio files, open a command prompt in the `hellod3d12\premake` directory and run `..\..\premake\premake5.exe vs2019` (or `..\..\premake\premake5.exe vs2017` for Visual Studio 2017.)
 
 Sample overview
 ---------------
